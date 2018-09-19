@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package - Genders language
 * @copyright (c) 2015 phpBBmodders.net
@@ -31,11 +32,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'GENDER'			=> 'Gender',
-	'GENDER_NONE'	=> 'None Specified',
-	'FA-MARS' => 'Male',
-	'FA-VENUS' => 'Female',
-	'FA-INTERSEX' => 'Intersex',
+	'GENDER'			=> 'Sugu',
+	'GENDER_NONE'	=> 'Määramata',
+	'FA-MARS' => 'Mees',
+	'FA-VENUS' => 'Naine',
+	'FA-INTERSEX' => 'Kesksoost',
 	'FA-MARS-DOUBLE' => 'Mars Double',
 	'FA-MARS-STROKE' => 'Mars Stroke',
 	'FA-MARS-STROKE-H' => 'Mars Stroke H',
@@ -46,7 +47,7 @@ $lang = array_merge($lang, array(
 	'FA-TRANSGENDER-ALT' => 'Transgender Alt',
 	'FA-VENUS-DOUBLE' => 'Venus Double',
 	'FA-VENUS-MARS' => 'Venus Mars',
-	'FA-GENDERLESS' => 'Genderless',
-	'TOO_LARGE_USER_GENDER'	=> 'Gender value is too large.',
-	'TOO_SMALL_USER_GENDER'	=> 'Gender value is too small.',
+	'FA-GENDERLESS' => 'Sooline sõltumatus',
+	'TOO_LARGE_USER_GENDER'	=> 'Sooline väärtus on liiga suur.',
+	'TOO_SMALL_USER_GENDER'	=> 'Sooline väärtus on liiga väike.',
 ));
